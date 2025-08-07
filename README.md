@@ -60,10 +60,23 @@ To understand and prepare the Titanic dataset for building a predictive machine 
 - **Correlation:** Strong negative correlation between `Pclass` and `Fare`; moderate positive correlation between `SibSp` and `Parch`.
 
 ---
+# 🏠 House Price Prediction (Linear Regression)
 
-## 🧾 Conclusion:
-Through systematic data cleaning and insightful EDA:
-- We understood the data better and prepared it for modeling.
-- Identified key features impacting survival.
-- This foundation will support better feature engineering and model accuracy in the next task.
+A simple ML project that predicts house prices using Linear Regression on `Housing.csv`.
+
+## 🔧 Steps
+1. Load & preprocess data (encoding categoricals)
+2. Train-test split
+3. Train Linear Regression model
+4. Evaluate using MAE, MSE, R²
+5. Plot actual vs predicted, view coefficients
+
+## 📊 Sample Results
+- MAE: ~₹9.7 L
+- R² Score: ~0.65
+
+## 📦 Libraries
+pandas, numpy, sklearn, matplotlib, seaborn
+
+
 
