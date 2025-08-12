@@ -128,10 +128,33 @@ The dataset used is `heart.csv`, which contains various medical attributes such 
 
 ---
 
-## ⚙️ Installation & Requirements
-Install the dependencies:
-```bash
-pip install pandas matplotlib scikit-learn
+# TASK 6 KNN Classification on Iris Dataset
+
+## Steps Performed
+1. **Dataset**  
+   - Used `Iris.csv` dataset.  
+   - Dropped ID column.  
+   - Encoded species labels into numbers.  
+   - Normalized features using `StandardScaler`.  
+
+2. **Model**  
+   - Applied `KNeighborsClassifier` from `sklearn`.  
+   - Tested different `K` values to find the best accuracy.  
+
+3. **Evaluation**  
+   - Computed accuracy score.  
+   - Created confusion matrix.  
+
+4. **Visualization**  
+   - Plotted decision boundaries using first two normalized features.  
+   - Colors: Red (Setosa), Green (Versicolor), Blue (Virginica).  
+
+## Output
+- Best K value  
+- Accuracy score  
+- Confusion matrix plot  
+- Decision boundary plot
+
 
 
 
