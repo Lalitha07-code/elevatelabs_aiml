@@ -176,6 +176,42 @@ Train a **Support Vector Machine (SVM)** 🖥 on the **Breast Cancer Wisconsin d
 - Graph with decision boundary separation 🖌  
 - Accuracy printed in console 📈
 
+ # TASK 8 🧠 K-Means Clustering on Mall Customers Dataset
+
+## 📌 Steps Performed
+1️⃣ **Load & Explore Dataset**  
+- Loaded `Mall_Customers.csv` using Pandas  
+- Selected only numerical features for clustering  
+- Standardized features with `StandardScaler`  
+
+2️⃣ **PCA (Optional) for 2D Visualization**  
+- Reduced dimensions to 2 using `PCA` for plotting purposes  
+
+3️⃣ **Find Optimal K (Elbow Method)**  
+- Plotted `Inertia vs K` curve  
+- Chose optimal K based on elbow point  
+
+4️⃣ **Fit K-Means Model**  
+- Applied `KMeans` with optimal K  
+- Predicted cluster labels for each customer  
+
+5️⃣ **Visualize Clusters**  
+- Plotted customers in PCA space with color-coded clusters  
+- Marked cluster centroids in red  
+
+6️⃣ **Evaluate Clustering**  
+- Calculated **Silhouette Score** to measure clustering quality  
+
+---
+
+## 🛠 Libraries Used
+```python
+pandas  
+numpy  
+matplotlib  
+scikit-learn
+
+
 
 
 
