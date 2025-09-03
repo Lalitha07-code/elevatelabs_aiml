@@ -203,13 +203,33 @@ Train a **Support Vector Machine (SVM)** 🖥 on the **Breast Cancer Wisconsin d
 - Calculated **Silhouette Score** to measure clustering quality  
 
 ---
+# 🎬 **Movie Recommendation System Project**
 
-## 🛠 Libraries Used
-```python
-pandas  
-numpy  
-matplotlib  
-scikit-learn
+A **Movie Recommender System** built with **Python**, **Scikit-learn**, **Pandas**, and **Streamlit**.  
+It suggests movies based on user preferences using **Content-Based Filtering**, **Collaborative Filtering**, and a **Hybrid Approach**.  
+Optionally, it can also fetch **movie posters from TMDb API**.
+
+---
+
+## ✨ **Features**
+- **Content-based filtering** (TF-IDF + cosine similarity on genres)  
+- **Collaborative filtering** (latent factor model with Truncated SVD)  
+- **Hybrid recommendations** (mix of content + collaborative)  
+- **Genre-based search option**  
+- **Interactive Streamlit UI**  
+- **Optional TMDb API integration** for fetching posters  
+
+---
+
+## 📂 **Project Structure**
+- `app.py` → Main Streamlit web app  
+- `requirements.txt` → Dependencies  
+- `README.md` → Project info  
+- `data/` → Place `movies.csv` & `ratings.csv` here  
+
+---
+
+
 
 
 
